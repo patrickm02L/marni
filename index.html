@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script language="javascript">
+function playIt()
+{
+   document.getElementById("embed").innerHTML="<embed src='marni.mp3' autostart=true loop=false volume=100 hidden=true>";
+   return true;
+}
+</script>
+</head>
+<body>
+  <h1>Click on Lincoln!</h1>
+    <form action="" method="post">
+        <button type="button" onclick="playIt()"><img src="lincoln-400.jpg" title="marni" /></button>
+        <div id="embed"></div>
+    </form>
+
+</body>
+</html>
